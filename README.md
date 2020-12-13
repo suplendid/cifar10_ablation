@@ -6,9 +6,7 @@ vgg16 and resnet18 experiment in cifar10
     $mkdir images
     $mkdir txt
     $mkdir models
-images save the evaluation figures
-models save the checkpoints 
-txt save the state of a model
+images save the evaluation figures, models save the checkpoints and txt save the state of a model
 
 there are 12 parameters in the code
 
