@@ -3,9 +3,9 @@ vgg16 and resnet18 experiment in cifar10
 
 **preprocess: please make the following 3 folders
 
-    mkdir images
-    mkdir txt
-    mkdir models
+    $mkdir images
+    $mkdir txt
+    $mkdir models
 images save the evaluation figures
 models save the checkpoints 
 txt save the state of a model
@@ -27,8 +27,8 @@ there are 12 parameters in the code
 
 You can do any ablations (total 2^12) you like by running run.py
     
-    python run.py
+    $python run.py
 
 For a single training scenario use the following code, change the parameters according to the above parser
     
-    python train.py --model vgg --valid 1 --less_data 1 --weight 1 --ROS 1 --c 1 --f 1 --e 1 --cutmix 0 --batch_size 128 --epochs 200 --valid_rate 0.2
+    $python train.py --model vgg --valid 1 --less_data 1 --weight 1 --ROS 1 --c 1 --f 1 --e 1 --cutmix 0 --batch_size 128 --epochs 200 --valid_rate 0.2
