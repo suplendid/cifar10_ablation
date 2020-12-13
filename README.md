@@ -1,7 +1,7 @@
 # cifar10_ablation
 vgg16 and resnet18 experiment in cifar10
 
-**preprocess: please make the following 3 folders
+**preprocess: please make the following 3 folders**
 
     $mkdir images
     $mkdir txt
