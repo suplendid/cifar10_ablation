@@ -17,7 +17,9 @@ there are 12 parameters in the code
     parser.add_argument("--cutmix", default=0, type=int, help='apply cutmix or not')
 
 You can do any ablations (total 2^12) you like by running run.py
+    
     python run.py
 
 For a single training scenario use the following code
+    
     python train.py --model vgg --valid 1 --less_data 1 --weight 1 --ROS 1 --c 1 --f 1 --e 1 --cutmix 0 --batch_size 128 --epochs 200 --valid_rate 0.2
