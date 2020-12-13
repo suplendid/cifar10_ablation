@@ -1,6 +1,15 @@
 # cifar10_ablation
 vgg16 and resnet18 experiment in cifar10
 
+**preprocess: please make the following 3 folders
+
+    mkdir images
+    mkdir txt
+    mkdir models
+images save the evaluation figures
+models save the checkpoints 
+txt save the state of a model
+
 there are 12 parameters in the code
 
     parser.add_argument("--model", default="vgg", type=str, help='model name(vgg or resnet)')
