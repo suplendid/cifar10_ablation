@@ -202,7 +202,7 @@ if __name__ == "__main__":
                 else:
                     val_correct += predicted.eq(labels).sum().item()
                     val_acc = val_correct / val_total
-                    v = val_corrct
+                    v = val_correct
         
         ### calculating validation loss and collect loss and accuracy history
         val_loss = val_loss / (i+1)
